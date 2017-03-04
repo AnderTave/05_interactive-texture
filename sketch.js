@@ -8,15 +8,15 @@ var colours = ["#81358E",
 var colours_tmp = [];		
 
 function setup() {
-	createCanvas(800, 800);
+	createCanvas(400, 400);
 	}
 
 function draw() {
 
 // ciclo di for per creare un reticolato di moduli
 	
-	for (x = 40; x < 800; x += 80) {
-    for (y = 40; y < 800; y += 80){
+	for (x = 40; x < 400; x += 80) {
+    for (y = 40; y < 400; y += 80){
     
 		modulo();
     }
